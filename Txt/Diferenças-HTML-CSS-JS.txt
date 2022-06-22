@@ -1,0 +1,24 @@
+HTML e CSS não são linguagens de programção, as pessoas não programam em html e css e sim desenvolvem;
+HTML: linguagem de marcação hipertexto;
+CSS: folhas de estilo em cascata;
+------------------------------------------------------------------------------------------------------
+A linguagem HTML é focado em conteúdo (textos, imagens, videos, tabelas, listas e etc.)
+CSS é foco em designer cores, sombras, tamanhos, posicionamento e etc;
+Java Script é foco em interações (menus, animações, popus, validações e etc);
+------------------------------------------------------------------------------------------------------
+No site features obsolete w3c, você vai achar as tags que não funcionam mais e etc
+------------------------------------------------------------------------------------------------------
+Acesse: iana.org media types para descobrir os nomes das configs para download e etc do seu site
+----------------------------------------------------------------------------------
+Simbolos bons para site:
+
+https://erikasarti.com/html/dingbats-simbolos-desenhos/
+
+
+-----------------------------------------------------------------------------
+
+Site de estudo pseudo classes e elementos:
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes

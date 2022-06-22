@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: black; */
+            border: 10px solid black;
+
+            /* O espaço entre a borda e o conteúdo da caixa se chama padding (preenchimento)
+            Sempre seguir está ordem de configuração: top > right > bottom > left 
+            padding-top: 10px;  
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+            padding: 10px 10px 10px 10px; 
+            /* Se colocar somente uma medida, ela sera aplicada a todas as direções; Ao colocar somente 2 medidas a primeir sera aplicada em top bottom e a segunda right left;*/
+
+            /* Margin é um espaço fora da borda, util para separar box uma das outras ;
+           margin: auto; Faz com que a caixa fique centralizada no meio
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; 
+            No exemplo a seguir a margem direita e esquerda estão centralizada automaticamente: */
+            margin: 20px 20px auto 40px 20px auto;
+
+            /* Entre a borda e a margin é possivel criar um trassejado chamado de outline (contorno) seus limites são definidos pela margem
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+            outline: 5px dashed salmon;
+        }
+
+        a {
+            /* Dashed deixa pontilhado, solid deixa uma linha reta e etc.*/
+            border: 10px dashed red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="@">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
+<!--
+    user agent é seu navegador;
+
+    display:block; = transforma em box level
+
+    Por padrão elementos box level vem sem padding e border configurados mas a margin está presente;
+
+    display:inline; = transforma em inline level
+
+    !!!!!!!!!!! Utilizando a extensão dev tools do chrome é possivel alterar o dimensionamento dos elementos do seu site (Mas as alterações não serão mantidas no código); !!!!!!!!!!!!!
+-->

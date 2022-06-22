@@ -1,0 +1,30 @@
+    
+    
+DICA: CTRL+ENTER vai para uma nova linha sem quebrar tags
+
+
+&lt; e &gt;  é uma maneira de representar os sinais < > sem criar tags
+
+
+Para selecionar um arquivo dentro das pastas do visual studio code mais facilmente segure ctrl e aperte espaço // serve para imagens, links de outra pagina html dentro do própri o visual e etc;
+
+
+Para gerar textos aleatorios é só digitar lorem e enter
+
+
+DICA: CTRL+ENTER vai para uma nova linha sem quebrar tags
+
+Para tirar espaços mais rapido, selecione as palavras escritas e aperte:    shift+tab
+E para dar um leve espaço selecione e aperte:    tab
+
+Para apagar ou escrever a msm coisa em varios locais diferentes, clique segurando alt. 
+
+
+DICAS PARA INSERIR LINKS, ARQUIVOS, IMAGENS E ETC: ../        retorna uma pasta   EXEMPLO:     <p><a href="../index.html">Voltar para a primeira página</a></p>
+
+AO INSERIR UMA TAG DE LINK COM DESTINO A UM ARQUIVO QUE NAO EXISTE O VSCODE IRÁ CRIALO ISSO SALVA MT TEMPO
+
+EX:     <link rel="stylesheet" href="style.css">
+
+AO CRIAR ESSA TAG CASO O ARQUIVO STYLE.CSS N EXISTA, CLIQUE NELE SEGURANDO CTRL E O VSCODE IRÁ CRIALO
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fpmtes em CSS</title>
+    <style>
+        body {
+             /*Css web safe combinations, é boa para caso o dispositivo não reconhecer uma fonte ele passa para a proxima, neste caso primeiro vai ser arial dps helvetica e dps sans-serif; Ao colocar somente sans-serif ou serif o navegador puxará qualquer fonte que bata com esse tipo automaticamente; */
+            font-family: Arial, Helvetica, sans-serif;
+
+            /*
+            Medidas absolutas
+            cm, mm, in (polegadas), px, pt, pc;
+
+            Medidas Relativas
+            em (Relativo ao M de uma letra), ex (Relativo ao X de uma fonte), rem (Relativo ao root fonte do body), VW (Largura da tela), vh (Altura da tela), %;
+
+            Recomendadas: px e em;
+
+            16px ja é o tamanho normal da fonte sem usar o font-size;
+            16px geralmente = 1em
+            2em = 32px
+            em é sempre relativo ao tamanho natural da fonte;
+            */
+            font-size: 16px;
+            font-weight: lighter;
+            /*lighter normal bold bolder
+            bold e boler = negrito 
+            É possivel usar opções numericas de 100-900
+            Porém nem todas as fontes tem variações*/
+            font-style: italic;
+            /*É possivel combinar estilos com peso por exemplo o negrito italico, mas nem toda fonte aceita; */
+            text-decoration: underline; /* Sublinhado */
+        }
+
+        h1 {
+            /* 
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand font: é um compactação de todas essas configs em uma unica linha
+            
+               - font-style > font-weight > font-size > font-family
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus placeat quos eos dolores odit error quis neque maxime exercitationem voluptatum cum, et necessitatibus, quidem modi rerum vero tempore consequuntur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at quaerat suscipit tempora dolor quisquam, velit obcaecati ab pariatur aperiam incidunt quia impedit similique excepturi voluptatibus perspiciatis minus. Fugit, eligendi!</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore nam quod corporis nesciunt officiis neque maxime corrupti aliquam accusamus iure fugit, animi nisi ipsa ut laboriosam vel nulla possimus id.</p>
+</body>
+</html>
+
+<!--
+    Pesquise Css web safe combinations no google para conseguir combinações seguras de fontes;
+   
+    weight: peso
+    width: largura
+    height: altura
+-->

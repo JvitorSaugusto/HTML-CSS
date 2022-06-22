@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px; /* Resolução da tela dos menores celulares*/
+            max-width: 800px; /* Indica q quando a tela tiver mais de 800px ele n se adaptara mais, e abaixo desse valor ela sera adaptada até 280px*/
+            margin: auto;     /* Margem automatica para que em telas muito grande o site não se expandir infinitamente*/
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel vero fugiat repellendus rerum aspernatur perspiciatis saepe pariatur enim quaerat tempora, veniam provident ea molestiae voluptatum dicta. Laborum, quam Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum voluptates nostrum laboriosam, quasi rerum alias cumque fugit, quas porro aperiam! Debitis animi distinctio at? Provident pariatur nemo harum vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque hic aut, dolor temporibus similique laborum itaque in porro sunt ipsa nemo facilis reprehenderit repudiandae eligendi harum necessitatibus nostrum blanditiis pariatur!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="../Desafios/Desafio-004 copy/imagens/irina-blok-pq.jpg">
+            <img src="../Desafios/Desafio-004 copy/imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel vero fugiat repellendus rerum aspernatur perspiciatis saepe pariatur enim quaerat tempora, veniam provident ea molestiae voluptatum dicta. Laborum, quam Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum voluptates nostrum laboriosam, quasi rerum alias cumque fugit, quas porro aperiam! Debitis animi distinctio at? Provident pariatur nemo harum vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque hic aut, dolor temporibus similique laborum itaque in porro sunt ipsa nemo facilis reprehenderit repudiandae eligendi harum necessitatibus nostrum blanditiis pariatur!</p>
+    
+    
+    </main>
+</body>
+</html>
+<!--
+    Use a extensão window resizer para auxiliar no dimensionamento do site em dispositivos diferentes;
+-->

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+   tudo em HTML é id    = em CSS é "#"
+   tudo em HTML é class = em CSS é "."
+   
+   Dentro de um arquivo CSS só pode ter um id com o mesmo nome, exemplo do que não fazer é por 2 #principal no arquivo;
+
+   Quando quiser adicionar a mesma configuração em 2 elementos diferentes adicione class="";
+
+   Dica: ao nomear ID e CLASS nomeie por funções não formas;
+*/
+
+body {
+    background-color: rgb(83, 163, 83);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(3, 51, 3);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(7, 113, 7);
+    color: white;
+}
+
+h2 {
+    color: rgb(1, 27, 1);
+}
+
+.basico {
+    color: rgb(1, 79, 1);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(8, 224, 8);
+}
+
+.avançado {
+    color: rgb(255, 0, 0);
+}
+
+.destaque {
+    background-color: rgb(218, 218, 68);
+}

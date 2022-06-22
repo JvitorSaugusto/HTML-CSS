@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar a <a href="https://www.youtube.com/" target="_blank" rel="external">pagina inicial do youtube</a> pro aqui!</p>
+    <p>Você também pode <a href="https://www.google.com/" target="_blank" rel="external">acessar o Google</a> por aqui!</p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">Segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de noticias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livros/10 - Ligações em toda parte.pdf" download="livro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livros/10 - Ligações em toda parte.rar" download="livro.rar" type="application/rar">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
+<!--
+    A tag "a" se refere a ancora ou seja um link;
+
+    <a href="https://www.youtube.com/" target="_blank" rel="external">pagina inicial do youtube</a> pro aqui!</p>
+
+    target="_blank": e o alvo é uma janela em branco // abrir em nova aba
+    rel="external": tipo de link externo ou seja um site que não é seu
+
+    Ao adicionar esses 2 complementos, depois que o usuario clicar no link do site, o link sera aberto em uma nova guia, sem isso será aberto por cima do seu site;
+
+    Para links na mesma pagina é interessante adicionar   rel="next"  para avançar e rel="prev" para retornar a página;
+
+    Target="_self" significa que o alvo é a mesma aba;
+
+    Um link interno é um vinculo que liga ao nosso próprio site, por exemplo, pagina 1 > pagina 2 > pagina 3 e etc;
+
+    DICAS PARA INSERIR LINKS, ARQUIVOS, IMAGENS E ETC: ../        retorna uma pasta   EXEMPLO:     <p><a href="../index.html">Voltar para a primeira página</a></p>
+
+
+
+    Ao adicionar o rel='nofollow' você sinaliza para o mecanismo de busca que não está dando aval para o conteúdo do link adicionado; Ex: pag 002 hostnet
+-->

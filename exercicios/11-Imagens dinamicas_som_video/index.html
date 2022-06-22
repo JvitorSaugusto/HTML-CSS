@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midia/As-You-Fade-Away - NEFFEX.mp3" controls autoplay></audio>
+    FORMATOS DE MÍDIA: MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/As-You-Fade-Away - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/As-You-Fade-Away - NEFFEX.ogg" type="audio/ogg">
+        <source src="midia/As-You-Fade-Away - NEFFEX.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/As-You-Fade-Away - NEFFEX.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <!--digite a tag audio e apague o src; adicione os parametros preload > autoplay e controls;
+       
+    O parametro controls adiciona os controles de play/pause/volume e etc;
+
+    O parametro loop, faz com que o audio se repita ao finalizar;
+
+    O parametro PRELOAD tem 3 opçoes:
+
+   # auto -Carrega o arquivo inteiro antes do site carregar;
+   # metadata -carrega somente algumas informações como o nome e duração do arquivo e o resto só quando der play;
+   # none -Não carrega nada, tudo será carregado quando o usuario der play;
+
+    !!!CUIDADO!!! Ao usar auto, se o audio for grande, seu site pode demorar muito pra ser carregado;
+
+    Digite a tag source:src e ai sim insira o arquivo;
+    Se atente ao type para colocar o tipo certo de arquivo;
+    Alguns navegadores não entendem certos tipos de audio então insira vários, cada um com sua sigla;
+    O navegador fará as tentativas por ordem de código, mp3 > ogg > wav > etc; caso nenhum for sera exibida a mensagem contida na tag <p>;
+    O formato wav não é recomendada pois é muito grande para um site.
+-->
+</body>
+</html>
+<!--
+    A tag <picture> significa que vai aparecer uma imagem
+
+    
+        tag <source:media:type>:
+    
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+    inicialmente será indicado min-widht (tamanho minimo) mas é bom por max-width (tamanho maximo)
+então caso seu navegador exiba um tamanho menor que 1050px (tamanho maximo da img que definimos);
+
+(!!!Definimos com 50 px a mais que a imagem grande de 1000px ja possui, pois irá evitar a barra de rolagem lateral dos navegadores que geralmente ativam neste tamanho);
+
+    o navegador irá exibir a foto media (srcset="imagens/foto-m.png"); Ocorre uma troca de tamanho 
+automatica entre as imagens; (util para visitar sites em diferentes dispositivos e ao diminuir o tamanho da janela do navegador);
+    Sempre colocar a imagem dinamica menor por cima;
+
+RESUMO: para tela grande irá carregar a imagem grande, média carregara média e etc;
+
+
+Dica para pegar um AUDIO dentro da lei: vá no youtube > youtube studio > biblioteca de áudio > atribuição não necessária;
+-->
+

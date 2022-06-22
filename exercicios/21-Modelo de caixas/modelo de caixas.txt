@@ -1,0 +1,60 @@
+O ato de colocar uma caixa dentro da outra se chama aninhamento;
+Todo elemento visivel dentro de um site é uma caixa; No momento que você cria um seletor vc está configurando uma caixa;
+
+Medidas de uma caixa:
+
+Altura - height
+Largura - width
+
+Configurações de caixas:
+
+É possivel traçar uma linha em volta do conteudo de uma caixa usando a borda da caixa, denominada de - border;
+
+Borda- border
+
+O espaço entre a borda e o conteúdo da caixa se chamar padding (preenchimento);
+
+Caso existam 2 elementos (caixas) na pagina é possivel que a borda dos 2 grude, para evitar isso, configuramos um espaço fora da borda chamado de - margin
+
+Entre a borda e a margin é possivel criar um trassejado chamado de outline (contorno);
+
+A borda é dentro do elemento e o outline fora;
+
+!!!!!!!!!!! Para observar os principais elementos da anatomia de uma caixa use a extensão dev tools pelo chrome;
+
+Tipos de caixa:
+
+box-level:
+
+Uma das caracteristicas é que ela sempre se inicia numa linha nova e sempre ocupa a largura total da tela; Ou seja ao fim de um conteudo (paragrafo por exemplo) no meio da tela, ela irá pular pra linha de baixo e ocupara toda a largura da tela e o conteudo continuará depois dela.
+
+Quebra linhas e ocupa toda largura da tela.
+
+ex: <DIV> Mais usado
+    <H1>-<H6>
+    <P>
+    <MAIN>
+    <HEADER>
+    <NAV>
+    <ARTICLE>
+    <ASIDE>
+    <FORM>
+    <VIDEO>
+
+inline-level:
+
+Uma das caracteristicas é que caso o conteudo n ocupe toda a linha ela irá continuar logo em seguida do conteudo, Ou seja na mesma linha,  ocupando a largura do elemento contido dentro e o conteudo continuando logo em seguida;
+
+Não quebra linhas e não ocupa toda largura da tela.
+
+ex: <SPAN> Mais usado
+    <A>
+    <CODE>
+    <SMALL>
+    <STRONG>
+    <EM>
+    <SUP>-<SUB>
+    <LABEL>
+    <BUTTON>
+    <INPUT>
+    <SELECT>

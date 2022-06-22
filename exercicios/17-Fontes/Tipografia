@@ -1,0 +1,65 @@
+Anatomia do tipo
+
+tipo é como a letra vai ser desenhada ou representada;
+
+ITENS METRICOS:
+
+Todas as letras minusculas de uma fonte são baseadas pela altura do x
+Existem as altura das maiusculas, altura de vazamento de letras acima da altura x - altura ascendente, altura de vazamento de letras abaixo da altura x - altura descendente e a somatoria de todas que se chama corpo e este corpo é que será usado no CSS;
+
+Serifas são pequenos traços gerados em certas fontes, ela cria uma linha imaginaria que nosso cerebro percebe para facilitar a leitura das palavras; Para textos longos em sites use sem serifas;
+
+ANATOMICOS GEOMETRICOS:
+
+Componentes: pé, barriga, orelha, braço, olho (buraco dentro da letra), cauda, perna e espinha (s)
+
+Glifo: é uma letra
+
+Um conjunto de glifos de uma familia se chama fonte;
+
+Familia tipografica: São variações de certos glifos, nem toda fonte tem, exemplo semi negrito, negrito, extranegrito;
+
+Categorias de fontes: serifadas (tem serifas), sans-serif (sem serifas), monoespaçadas (tudo tem o mesmo espaço entre si), handwriting (script, ela tenta simular a letra feita a mão), display (uma fonte sem nenhuma caracteristica citada antes, são fontes comemorativas);
+
+Pesquise Css web safe combinations no google para conseguir combinações seguras de fontes;
+
+font:weight: peso
+    width: largura
+    height: altura
+
+ACESSE: google fonts para adquirir tipografias, la é possivel pesquisar por categorias, linguagem, proriedades e etc;
+
+Pesquise Css web safe combinations no google para conseguir combinações seguras de fontes;
+
+O site dafont.com tbm é mt bom;
+---------------------------------------------
+ Para adicionar fontes no seu site independente do dispositivo;
+
+Google fonts > escolha a fonte > selected family > @import > copie e cole no vscode;
+
+Sempre que importar uma fonte coloque o @import e estar fora de um seletor, abaixo da linha do style;
+-----------------------------------------------
+shorthand font: é um compactação de todas essas configs em uma unica linha
+            
+Deve seguir exatamente essa ordem - font-style > font-weight > font-size > font-family
+
+
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+Utilize no maximo 3 ou 4 familias de fontes
+--------------------------------------------------------------------------------------
+PEGANDO FONTES DIRETO DE UM SITE:
+
+Use o app do google: fonts ninja
+
+Ele ja pega o nome, valor, variações, cores e etc;
+-------------------------------------------------------------------------------------
+É possivel pegar fontes dentro de imagens mas não é com 100% de certeza.
+
+sites: 
+
+O mais confiavel: whatfontis.com
+
+fontsquirrel.com
+
+myfonts.com

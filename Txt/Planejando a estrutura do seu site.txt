@@ -1,0 +1,2 @@
+Utilize a ferramenta "mockflow.com" para planejar o layout do seu site; Ele vai criar mocks (um wireframe, estrutura de um site);
+ 

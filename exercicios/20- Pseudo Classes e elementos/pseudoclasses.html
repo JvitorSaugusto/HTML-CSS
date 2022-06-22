@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block; /* Tudo na mesma linha */
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px; /* altura */
+            width: 200px; /* largura */
+        }
+
+        /*  Pseudo-classes tem que estar relacionada ao estado de um elemento ou classe e são repesentada por : */
+
+        div:hover { /* Hover significa passar o mouse ou algo em cima, neste exemplo ao passar o mouse em cima da div ela ficara com o fundo amarelo */
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
+
+<!--
+A tag DIV é usada como um contêiner para elementos, estilizar com CSS ou executar tarefas com JS;
+Ela tambem serve para definir uma divisão, seção ou espaço do documento;
+
+
+---------------------------------------------------------------------------------
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-elemento
+> = children
+
+--------------------------------------------------------------------------------
+
+Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.
+
+--------------------------------------------------------------------------------
+
+Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado. Por exemplo, o pseudo-elemento ::first-line aplica o estilo apenas na primeira linha de um parágrafo.
+
+O a::before estiza só oque vem depois do elemento neste caso o link <a>.
+-->

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            /* Uma maneira facil de fazer sombra é pelo dev tools no chrome*/
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;  /* Da um espaço entre os links*/
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            /* border-radius: 50%; Transforma o elemento em uma bola */
+            background-color: white;
+        }
+        article {
+            background-color: gray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(52, 51, 51);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>Frutas Politica Carros</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa corrupti quia fugit esse rem ullam architecto alias sequi libero, nulla fugiat doloremque? Inventore repellat tempore obcaecati repellendus, voluptatum eligendi.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+        <div id="bola"></div>
+    </footer>
+</body>
+</html>
+<!--
+    Header: Cria áreas relativas a cabeçalhos. Pode ser o cabeçalho principal de um site ou até mesmo o cabeçalho de uma seção ou artigo. Normalmente inclui títulos <h1< - <h6> e subtítulos. Podem também conter menus de navegação.
+
+    Nav: 
+    Define uma área que possui os links de navegação pela estrutura de páginas que vão compor o website. Um <nav> pode estar dentro de um <header>;
+    
+    Main:
+    É um agrupador usado para delimitar o conteúdo principal do nosso site. Normalmente concentra as seções, artigos e conteúdos periféricos.
+
+    Section:
+    Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação oficial da W3C, uma seção é um agrupamento temático de conteúdos, tipicamente com um cabeçalho.
+
+    Article: 
+    É um elemento que vai conter um conteúdo que pode ser lido de forma independente e dizem respeito a um mesmo assunto. Podemons usar um <article> para delimitar um post de blog, forum, noticia e etc.
+    
+    Aside:
+    Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo ou seção. Normalmente um conteúdo <aside> está posicionado ao lado de um determinado texto ou até mesmo no meio dele, exatamente como fizemos no bloco de texto apresentado anteriormente, falando sobre MULTIPLOS NIVEIS.
+    
+    Footer:
+    Cria um rodapé para o site inteiro, seção ou artigo. É um conteúdo que não faz parte diretamente do conteúdo nem é um conteudo periférico (o que caracterizaria um <aside>), mas possui informações sobre autoriia do conteúdo, links adicionais, mapa do site, documentos relacionados.
+
+    Duvidas acesse o pdf: https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf
+    
+-->

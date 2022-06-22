@@ -1,0 +1,28 @@
+Como pesquisar imagens sem se ferrar com direitos autorais:
+Vá no google na aba direitos de uso > Marque a opção "Marcada para reutilização com modificação" (principal)
+Ou Marcadas para reutilização (essas não é permitido alterações)
+Marcadas para reutilização não comercial com modificação (Pode fazer de tudo menos para fins comerciais)
+
+SITES BONS PARA IMG:
+unsplash.com
+pexels.com
+
+Programa bom para edição de fotos gratuitas:
+gimp.org
+
+Tipos de IMG
+
+JPEG: Foto grande pois esse formato compacta mais a imagem // Com muito zoom a img pode pixelar
+PNG: imagem com fundo transparente // com muito zoom a img vai pixelar menos pois tem mais qualidade
+
+Usar imagens no maximo com 1500 de largura no seu site, para evitar muito peso, normalmente  é usado 650
+Resolição em 72 ou 50
+
+
+FERRAMENTA PRA VIDEOS
+
+No site pexels.com tem videos gratuitos também
+
+APLICATIVO ESSENCIAL PARA CONVERTER O FORMATO/QUALIDADE/PREDEFINIÇÕES DE UM VIDEO PARA SER INSERIDO NA WEB: HANDBRAKE
+
+Não foque em qualidades muito altas, faz mais mal do que bem para o site, no maximo 1080p;

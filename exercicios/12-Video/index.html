@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+<video width="560" poster="imagens/capa-video.jpeg" controls autoplay loop>
+    <source src="mídia/Meu-Video-1.m4v" type="video/mp4">
+    <source src="mídia/meu-video.mp4.mp4" type="video/mp4">
+    <source src="mídia/Meu-Video-2.ogv" type="video/ogv">
+<p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+</video>
+
+<h1>Inserindo vídeos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h0XI5RM_ro0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
+<!--
+    DIFERENTES NAVEGADORES ACEITAM DIFERENTES FORMATOS DE VIDEOS, ENTÃO COLOQUE TODOS
+
+    Tipos: MP4-M4M-WEBM-OGV
+
+    Digite a tag <video> e apague o src; Adicione a tag <source:src>; adicione os parametros width, poster e controls;
+
+    O parametro poster adiciona uma capa no video de sua preferencia;
+       
+    O parametro width, define o tamanho do vídeo exibido;
+
+    O parametro controls adiciona os controles de play/pause/volume e etc;
+
+    O parametro loop faz com que o video se repita ao terminar;
+
+    Caso nenhum dos formatos não funcione, o navegador irá exibir a mensagem da tag <p>;
+
+    Cuidado com este método pois o consumo de banda para o site pode ser muito alto, gerando altos custos para o cliente, pois os videos estarão salvos no seu próprio computador e etc;
+
+    Para adicionar videos ja hospedados (youtube por exemplo) va no video > compartilhar > incorporar > copie e cole o código; Desta maneira, é mais rapido, fácil e o consumo de dados vai ser no youtube, não no próprio site hospedado;
+
+    Um serviço de videos para privar seus videos pra uso exclusivo só para seu site, use o vimeo;
+
+-->

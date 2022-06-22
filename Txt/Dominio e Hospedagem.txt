@@ -1,0 +1,34 @@
+LINKS ÚTEIS
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+
+DOMINIO E HOSPEDAGEM
+
+Como os outros vão acessar meu site ja que meu computador não é um servidor?
+ja que o html+css estão no meu computador
+É necessario um dominio e um servidor para outros acessarem seu site
+
+Dominio: nome único > Dominios são pagos anualmente > terá que escolher um "TLD"; existem TLD, GTLD, CCTLG
+
+Hospedagem: Onde seu html e css estão guardados > São pagos mensalmente > Vc escolhe por quantidade de espaço, memória e recursos;
+
+EXEMPLO 1:
+URL/Localizador de recurso unico : www.github.com/gustavoguanabara
+
+Dominio: github
+TLD: .com
+Sub-dominio: www
+Caminho: /gustavoguanabara
+
+--------------------------------------------------------------------------------------------------------
+
+EXEMPLO 2:
+gustavoguanabara.github.io
+
+sub-dominio: gustavoguanabara
+dominio: github.io
+TLD: io
+-----------------------------------------------------------------------------------------------------------
+
+HTTPs: é um protocolo e o s significa que é um protocolo seguro

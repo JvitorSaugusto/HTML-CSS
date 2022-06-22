@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>mark {
+        background-color: blue;
+    }</style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b>usando a tag B.</p> <!--A tag B é uma tag não semantica, sem signficado só forma ou seja sem sentido-->
+    <p>Nestra frase, tenho um <strong>termo em destaque</strong>usando STRONG</p> <!--Tem semantica, visualmente fica a mesma coisa pórem o STRONG da a forma e um sentido a frase-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semantica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semantica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark> outro texto marcado</mark> no final.
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar um ênfase e indicar que ele foi adicionado depois.(semantica)</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semantico)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+</body>
+</html>
+
+<!--Usando o atalho ctrl+shift+p e indo na opção wrap with abreviation, vc enevelopa uma frase selecionada com a tag desejada, lembre-se de digitar a tag sem usar as chaves <>
+
+DICA: CTRL+ENTER vai para uma nova linha sem quebrar tags
+
+
+Não usar nada sem semantica no html.
+
+small ainda não caiu em desuso pois letras pequenas ainda tem signficado como por exemplo as letras pequenas de um contrato. Big caiu em desuso pois é somente aparencia, então é melhor alterar o tamanho através do CSS
+
+Tags SUB E SUP servem pra por as letrinhas pequenas ou em cima ou embaixo.
+
+Para mudar a cor do MARK tem que ser através do CSS
+
+Ao usar:
+
+  <style>mark {
+        background-color: blue;
+    }</style>
+    Todas as tags marks irão herdar as caratceristicas desse style, ao ser posto dentro de uma tag a alteração sera unica.
+-->

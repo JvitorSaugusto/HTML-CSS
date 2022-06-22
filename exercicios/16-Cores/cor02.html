@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{   /* Configurações globais das CSS usam esse asterisco; */
+            height: 100%; /* O height 100% é para permitir o uso de gradiente de cima para baixo*/
+        }
+        body{
+            background-image: linear-gradient(to bottom, #FFD063, #FFBB18 43%);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
+
+<!--
+    background-image: linear-gradient(), é usada para criar um fundo com gradiente, entre parenteses vc coloca a direção dele;
+
+    É possivel utilizar anuglos para orientação do gradiente inserindo o numero e deg; ex: 45deg
+
+    Ao adicionar porcentagem depois das cores vc define a quantidade que x cor ocupara a tela;
+-->
