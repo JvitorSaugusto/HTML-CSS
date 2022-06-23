@@ -11,3 +11,8 @@ Acessando seu repositorio em um computador que não é seu:
 Apps necessarios: GIT > GITHUB > VSCODE
 
 Logue no GitHub > file > options > git > clica no nome, email e save > esolha o repositorio > clone o projeto > escolha o local onde ele será salvo > faça o que quiser > commite > push.
+Apagando seus dados: Feche o VScode > Acesse o GitHub > Repository > Remove > Marque "remove" > File > Options > Deslogue > Git > Apagar Nome e Email > apagar lixeira.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Segurança GitHub e em outros aplicativos: Baixe o Google Authenticator
