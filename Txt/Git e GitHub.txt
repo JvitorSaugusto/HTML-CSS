@@ -1,0 +1,13 @@
+Hospedando site no GitHub:
+
+Crie um novo repositorio no Git Hub Desktop > vá no site do git > settings > page > Escolha um tema para adicionar o repositorio inteiro.
+Quando for somente um site do repositorio não coloque um tema > va em source e main.
+
+Após gerar o link do seu site, vá para QrCode Generator e cole a url gerada pelo Git Hub la, assim será gerado um Qr code para seu site, facilitando o acesso.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Acessando seu repositorio em um computador que não é seu:
+Apps necessarios: GIT > GITHUB > VSCODE
+
+Logue no GitHub > file > options > git > clica no nome, email e save > esolha o repositorio > clone o projeto > escolha o local onde ele será salvo > faça o que quiser > commite > push.
