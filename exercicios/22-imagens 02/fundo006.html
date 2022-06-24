@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /* Cover faz com que a imagem cubra a tela inteira independente do tamanho da tela, mas isso faz com que algumas partes da imagens sejam cortadas; Contain faz com que a imagem seja 100% exibida sem cortes; auto o navegador decide o tamanho; 100px e etc é definido por você; a melhor opção depende do seu objetivo */
+            background-size: cover;
+            
+            Cover faz com que a imagem cubra a tela inteira independente do tamanho da tela, mas isso faz com que algumas partes da imagens sejam cortadas ( caso o conteudo do site seja muito grande a imagem será cortada mesmo assim);
+            Contain faz com que a imagem seja 100% exibida sem cortes; auto o navegador decide o tamanho; 100px e etc é definido por você; a melhor opção depende do seu objetivo; 
+
+            background-attachment: fixed;  
+
+            Essa propriedade define se a tela de fundo é fixa, se vai acompanhar a rolagem da tela e etc.
+
+            Shorthand- background
+            color > image > position >repeat > [size] > attachment 
+
+            Porém o size incluso ai não funciona.
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
