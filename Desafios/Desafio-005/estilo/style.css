@@ -19,7 +19,7 @@ header {
 header > h1 {
     padding-top: 50px;
 /* text-transform: uppercase; Todas as Letras maiuscula*/
-    font-variant: small-caps; /* Todas as letras ficam maiusculas mas as iniciais ficam maiores*/
+    font-variant: small-caps; /* Todas as letras ficam maiusculas mas as iniciais ficam maiores, melhor de se ler */
 }
 
 header > p {
