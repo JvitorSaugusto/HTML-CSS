@@ -1,0 +1,3 @@
+Você não pode usar tabelas para montar a estrutura do seu site, é melhor para organização de dados.
+
+Na wikipedia é mais comum de achar tabelas.
