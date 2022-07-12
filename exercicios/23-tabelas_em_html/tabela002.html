@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -20,10 +21,28 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n) { /* Efeito zebrado em tabelas, o 2n entre parenteses define o intervalo onde a linha sera pintada, pode ser de intervalor maiores como exemplo (5n)também podemos optar por colocar odd ou 2n-1 (faz com que as partes impares sejam pintadas, even ou 2n seria par, pode colocar duas vezes tr:nth para alternar o zebrado entra mais cores) */
+            background-color: lightgray;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px; /* Para fixar o titulo perfeitamewnte a aba do navegador*/
+            background-color: #383838;
+        }
+
         td.numero {
             text-align: right;
         }
@@ -33,6 +52,7 @@
     <h1>Tabelas grandes</h1>
     <!-- ANATOMIA PARA TABELAS GRANDES
          TABLE
+             CAPTION
               THEAD
                     TR, TD, TH
               TBODY
@@ -41,11 +61,11 @@
                     TR, TD, TH
     -->
     <table>
-
+        <caption>População das Unidades Federativas</caption> <!--Legenda/Titulo da tabela-->
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th> <!-- scope=col diz que o titulo é de uma coluna especifica-->
+                <th scope="col" style="width: 50px;">População</th> <!--Por ser o elemento que possui o titulo da coluna, ele quem define o tamanho dos valores abaixo dele -->
             </tr>
         </thead>
 
@@ -137,10 +157,25 @@
         </tbody>
 
         <tfoot>
-            <th>Total de Habitantes</th>
-            <td class="numero"><strong>210.147.125</strong></td> <!-- TH titulos TD dados -->
+            <th scope="row">Total de Habitantes</th> <!-- scope=row titulo da linha-->
+            <td class="numero"><strong>210.147.125</strong></td> <!-- TH titulos / TD dados -->
         </tfoot>
 
     </table>
 </body>
 </html>
+<!-- Sobre os scopes, não causam impactos visuais mas facilitam muito o funcionamento do seu site e tabelas com relação as pesquisas do google;
+
+
+
+Para facilitar a visualização dos dados da tabela, utilizamos o chamado efeito zebrado; 
+
+
+Cabeçalho fixo em tabelas grandes, o primeiro passo é colocar a tabela em position: relative;     
+depois:
+thead > tr > th { position: sticky; Para fixar o titulo mesmo rolando a pagina
+top: -1px; Para remover todo o espaço entre o titulo e a aba do navegador
+
+AO FINAL DA TABELA O EFEITO DE ROLAGEM DO TITULO NÃO IRÁ CONTINUAR;
+
+-->
