@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
+                        body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
             border-collapse: collapse;
-            width: 300px;
+            width: 600px;
         }
 
         td {
@@ -23,22 +23,29 @@
     </style>
 </head>
 <body>
-    <h1>Mesclagem d Células</h1>
     <table>
         <tr>
-            <td>A</td>
-            <td colspan="2">B</td> <!--A celula B está ocupando 2 colunas-->
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
-            <td rowspan="3">D</td> <!--A celula D está ocupando 3 linhas-->
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
         <tr>
+            <td>G</td>
             <td>H</td>
+            <td>I</td>
         </tr>
         <tr>
-            <td colspan="2">M</td>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
         </tr>
     </table>
 </body>
